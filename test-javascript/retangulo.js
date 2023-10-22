@@ -3,7 +3,7 @@ const Retangulo = {
   largura: 0,
   altura: 0,
 
-  definirDimensoes: function(largura, altura) {
+  dimensoes: function(largura, altura) {
     
     if (largura > 0 && altura > 0) {
       this.largura = largura
@@ -14,11 +14,11 @@ const Retangulo = {
     }
   },
 
-  calcularArea: function() {
+  area: function() {
     return this.largura + this.altura
   },
 
-  calcularPerimetro: function() {
+  perimetro: function() {
     return 2 * (this.largura + this.altura)
   }
 }
